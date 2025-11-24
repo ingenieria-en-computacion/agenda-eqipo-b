@@ -35,7 +35,7 @@ void agregar_contacto(Agenda *agenda, Contacto c){
 int buscar_contacto(Agenda *agenda, char *nombre){
     //nuevo
     for (int i = 0; i < agenda->num_contactos; i++) {
-        if (strcmp(agenda->contactos[i].nombre, nombre) == 0) {
+        if (strcmp(agenda->contactos[i].nombre, nombre) == 0) { //se compara el nombre del contacto con el nombre buscado
             return i;
         }
     }
