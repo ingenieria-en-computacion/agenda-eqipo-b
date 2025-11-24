@@ -1,6 +1,6 @@
 #include "agenda.h"
 //nuevo:
-#include <stdio.h>
+#include <stdio.h> //se agrego la biblioteca de entrada y salida estandar
 #include <string.h>
 #include <stdlib.h>
 /**
